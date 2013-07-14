@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DAEF64C1790C58900A93234 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEF64A1790C58700A93234 /* GLES-Render.cpp */; };
+		0DAEFA651791B1F000A93234 /* RayCastCallback.h in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEF64D1791B06F00A93234 /* RayCastCallback.h */; };
+		0DAEFA671791E97700A93234 /* spritesPhysics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEFA661791E97700A93234 /* spritesPhysics.plist */; };
+		0DAEFA691791E9B500A93234 /* obj_bomb1_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEFA681791E9B500A93234 /* obj_bomb1_001.png */; };
+		0DAEFA6B179227C000A93234 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEFA6A179227C000A93234 /* watermelon.png */; };
+		0DDFC705179006C700896458 /* GB2ShapeCache-x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFC703178F30DE00896458 /* GB2ShapeCache-x.cpp */; };
 		0DF1A90F178E00B800D57722 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1A90E178E00B800D57722 /* QuartzCore.framework */; };
 		0DF1A911178E00B800D57722 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1A910178E00B800D57722 /* OpenGLES.framework */; };
 		0DF1A913178E00B800D57722 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1A912178E00B800D57722 /* OpenAL.framework */; };
@@ -295,11 +301,25 @@
 		0DF1ACD6178E00C300D57722 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACD5178E00C300D57722 /* b2Rope.cpp */; };
 		0DF1ACDE178E00C300D57722 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1ACDD178E00C300D57722 /* libwebsockets.a */; };
 		0DF1ACE4178E00C300D57722 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACE3178E00C300D57722 /* AppDelegate.cpp */; };
-		0DF1ACE7178E00C300D57722 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACE6178E00C300D57722 /* HelloWorldScene.cpp */; };
+		0DF1ACE7178E00C300D57722 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACE6178E00C300D57722 /* GameScene.cpp */; };
 		0DF1ACE9178E00C300D57722 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF1ACE8178E00C300D57722 /* blocks.png */; };
+		0DF1ACF6178E091900D57722 /* PRFilledPolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACF0178E091900D57722 /* PRFilledPolygon.cpp */; };
+		0DF1ACF7178E091900D57722 /* PRRatcliffTriangulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACF2178E091900D57722 /* PRRatcliffTriangulator.cpp */; };
+		0DF1ACF8178E091900D57722 /* triangulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACF4178E091900D57722 /* triangulate.cpp */; };
+		0DF1ACFB178E099C00D57722 /* PolygonSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1ACF9178E099B00D57722 /* PolygonSprite.cpp */; };
+		0DF1ACFD178E0DCD00D57722 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF1ACFC178E0DCD00D57722 /* line.png */; };
+		0DF1B119178E14E300D57722 /* BombBallSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1B117178E14E300D57722 /* BombBallSprite.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DAEF64A1790C58700A93234 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GLES-Render.cpp"; sourceTree = "<group>"; };
+		0DAEF64B1790C58800A93234 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
+		0DAEF64D1791B06F00A93234 /* RayCastCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RayCastCallback.h; sourceTree = "<group>"; };
+		0DAEFA661791E97700A93234 /* spritesPhysics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spritesPhysics.plist; sourceTree = "<group>"; };
+		0DAEFA681791E9B500A93234 /* obj_bomb1_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obj_bomb1_001.png; sourceTree = "<group>"; };
+		0DAEFA6A179227C000A93234 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
+		0DDFC703178F30DE00896458 /* GB2ShapeCache-x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "GB2ShapeCache-x.cpp"; sourceTree = "<group>"; };
+		0DDFC704178F30DF00896458 /* GB2ShapeCache-x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GB2ShapeCache-x.h"; sourceTree = "<group>"; };
 		0DF1A90B178E00B800D57722 /* Cut the Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cut the Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF1A90E178E00B800D57722 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0DF1A910178E00B800D57722 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -920,9 +940,20 @@
 		0DF1ACE0178E00C300D57722 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		0DF1ACE2178E00C300D57722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		0DF1ACE3178E00C300D57722 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		0DF1ACE5178E00C300D57722 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		0DF1ACE6178E00C300D57722 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		0DF1ACE5178E00C300D57722 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/GameScene.h; sourceTree = "<group>"; };
+		0DF1ACE6178E00C300D57722 /* GameScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Classes/GameScene.cpp; sourceTree = "<group>"; };
 		0DF1ACE8178E00C300D57722 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		0DF1ACF0178E091900D57722 /* PRFilledPolygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PRFilledPolygon.cpp; sourceTree = "<group>"; };
+		0DF1ACF1178E091900D57722 /* PRFilledPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRFilledPolygon.h; sourceTree = "<group>"; };
+		0DF1ACF2178E091900D57722 /* PRRatcliffTriangulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PRRatcliffTriangulator.cpp; sourceTree = "<group>"; };
+		0DF1ACF3178E091900D57722 /* PRRatcliffTriangulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRRatcliffTriangulator.h; sourceTree = "<group>"; };
+		0DF1ACF4178E091900D57722 /* triangulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangulate.cpp; sourceTree = "<group>"; };
+		0DF1ACF5178E091900D57722 /* triangulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangulate.h; sourceTree = "<group>"; };
+		0DF1ACF9178E099B00D57722 /* PolygonSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolygonSprite.cpp; sourceTree = "<group>"; };
+		0DF1ACFA178E099B00D57722 /* PolygonSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonSprite.h; sourceTree = "<group>"; };
+		0DF1ACFC178E0DCD00D57722 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		0DF1B117178E14E300D57722 /* BombBallSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BombBallSprite.cpp; sourceTree = "<group>"; };
+		0DF1B118178E14E300D57722 /* BombBallSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombBallSprite.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -994,6 +1025,10 @@
 		0DF1A91F178E00B800D57722 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DAEFA6A179227C000A93234 /* watermelon.png */,
+				0DAEFA661791E97700A93234 /* spritesPhysics.plist */,
+				0DF1ACFF178E114400D57722 /* Bomb */,
+				0DF1ACFC178E0DCD00D57722 /* line.png */,
 				0DF1A920178E00B800D57722 /* CloseNormal.png */,
 				0DF1A922178E00B800D57722 /* CloseSelected.png */,
 				0DF1A924178E00B800D57722 /* Default.png */,
@@ -1026,6 +1061,9 @@
 		0DF1A940178E00B800D57722 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				0DDFC703178F30DE00896458 /* GB2ShapeCache-x.cpp */,
+				0DDFC704178F30DF00896458 /* GB2ShapeCache-x.h */,
+				0DF1ACEF178E091900D57722 /* PRKit */,
 				0DF1A941178E00B800D57722 /* cocos2dx */,
 				0DF1AB31178E00BF00D57722 /* CocosDenshion */,
 				0DF1AB49178E00BF00D57722 /* extensions */,
@@ -2192,12 +2230,40 @@
 		0DF1ACE1178E00C300D57722 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0DAEF64A1790C58700A93234 /* GLES-Render.cpp */,
+				0DAEF64B1790C58800A93234 /* GLES-Render.h */,
 				0DF1ACE2178E00C300D57722 /* AppDelegate.h */,
 				0DF1ACE3178E00C300D57722 /* AppDelegate.cpp */,
-				0DF1ACE5178E00C300D57722 /* HelloWorldScene.h */,
-				0DF1ACE6178E00C300D57722 /* HelloWorldScene.cpp */,
+				0DF1ACE5178E00C300D57722 /* GameScene.h */,
+				0DF1ACE6178E00C300D57722 /* GameScene.cpp */,
+				0DF1ACF9178E099B00D57722 /* PolygonSprite.cpp */,
+				0DF1ACFA178E099B00D57722 /* PolygonSprite.h */,
+				0DF1B117178E14E300D57722 /* BombBallSprite.cpp */,
+				0DF1B118178E14E300D57722 /* BombBallSprite.h */,
+				0DAEF64D1791B06F00A93234 /* RayCastCallback.h */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		0DF1ACEF178E091900D57722 /* PRKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DF1ACF0178E091900D57722 /* PRFilledPolygon.cpp */,
+				0DF1ACF1178E091900D57722 /* PRFilledPolygon.h */,
+				0DF1ACF2178E091900D57722 /* PRRatcliffTriangulator.cpp */,
+				0DF1ACF3178E091900D57722 /* PRRatcliffTriangulator.h */,
+				0DF1ACF4178E091900D57722 /* triangulate.cpp */,
+				0DF1ACF5178E091900D57722 /* triangulate.h */,
+			);
+			path = PRKit;
+			sourceTree = "<group>";
+		};
+		0DF1ACFF178E114400D57722 /* Bomb */ = {
+			isa = PBXGroup;
+			children = (
+				0DAEFA681791E9B500A93234 /* obj_bomb1_001.png */,
+			);
+			name = Bomb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2264,6 +2330,10 @@
 				0DF1A9D4178E00BA00D57722 /* ChangeLog in Resources */,
 				0DF1AB48178E00BF00D57722 /* project.pbxproj in Resources */,
 				0DF1ACE9178E00C300D57722 /* blocks.png in Resources */,
+				0DF1ACFD178E0DCD00D57722 /* line.png in Resources */,
+				0DAEFA671791E97700A93234 /* spritesPhysics.plist in Resources */,
+				0DAEFA691791E9B500A93234 /* obj_bomb1_001.png in Resources */,
+				0DAEFA6B179227C000A93234 /* watermelon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2274,6 +2344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAEFA651791B1F000A93234 /* RayCastCallback.h in Sources */,
+				0DDFC705179006C700896458 /* GB2ShapeCache-x.cpp in Sources */,
 				0DF1A93A178E00B800D57722 /* AppController.mm in Sources */,
 				0DF1A93D178E00B800D57722 /* RootViewController.mm in Sources */,
 				0DF1A93F178E00B800D57722 /* main.m in Sources */,
@@ -2538,7 +2610,13 @@
 				0DF1ACD2178E00C300D57722 /* b2WheelJoint.cpp in Sources */,
 				0DF1ACD6178E00C300D57722 /* b2Rope.cpp in Sources */,
 				0DF1ACE4178E00C300D57722 /* AppDelegate.cpp in Sources */,
-				0DF1ACE7178E00C300D57722 /* HelloWorldScene.cpp in Sources */,
+				0DF1ACE7178E00C300D57722 /* GameScene.cpp in Sources */,
+				0DF1ACF6178E091900D57722 /* PRFilledPolygon.cpp in Sources */,
+				0DF1ACF7178E091900D57722 /* PRRatcliffTriangulator.cpp in Sources */,
+				0DF1ACF8178E091900D57722 /* triangulate.cpp in Sources */,
+				0DF1ACFB178E099C00D57722 /* PolygonSprite.cpp in Sources */,
+				0DF1B119178E14E300D57722 /* BombBallSprite.cpp in Sources */,
+				0DAEF64C1790C58900A93234 /* GLES-Render.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2684,6 +2762,7 @@
 				0DF1ACEE178E00C300D57722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
